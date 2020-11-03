@@ -2,7 +2,7 @@ import javax.swing.*;
 public class ButtonIcon {
 	ButtonIcon(){
 		JFrame f = new JFrame("ButtonIcon");
-		JButton b = new JButton(new ImageIcon("button.jpg"));
+		JButton b = new JButton(new ImageIcon("../button.jpg"));
 		b.setBounds(80,150,150,40);
 		b.setText("Button");
 		f.add(b);
